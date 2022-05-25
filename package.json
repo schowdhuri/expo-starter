@@ -1,8 +1,10 @@
 {
   "name": "expo-starter",
   "version": "1.0.0",
-  "private": true,
   "main": "index.js",
+  "engines": {
+    "node": ">= 16.0.0"
+  },
   "scripts": {
     "prestart": "yarn update-stories",
     "start": "expo start",
