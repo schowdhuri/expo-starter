@@ -1,4 +1,4 @@
-import { FC } from "react";
+import type { FC } from "react";
 import { RecoilRoot } from "recoil";
 import { NativeBaseProvider } from "native-base";
 import { NavigationContainer } from "@react-navigation/native";

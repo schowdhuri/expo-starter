@@ -3,5 +3,5 @@ export default {
   "*.{js,ts,tsx}": ["yarn format", "eslint --cache --fix"],
 
   // type-checking
-  "src/**/{*.js,*.ts,*.tsx}": ["npm run typecheck --if-present"],
+  "src/**/{*.js,*.ts,*.tsx}": () => ["yarn typecheck"],
 };

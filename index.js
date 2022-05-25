@@ -1,4 +1,8 @@
 import { registerRootComponent } from "expo";
+import Constants from "expo-constants";
+import StorybookUIRoot from "./.ondevice/Storybook";
 import App from "./src";
 
-export default registerRootComponent(App);
+const Root = Constants.manifest.extra.storybookMode ? StorybookUIRoot : App;
+
+export default registerRootComponent(Root);
