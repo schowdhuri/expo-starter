@@ -12,13 +12,18 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest",
+    "test:watch": "jest --watch",
     "format": "prettier --write .",
     "lint": "eslint --fix .",
     "typecheck": "tsc --noEmit",
     "update-stories": "sb-rn-get-stories --config-path .ondevice",
     "sb-watcher": "sb-rn-watcher --config-path .ondevice",
     "sb:web": "start-storybook -p 6006",
-    "sb": "yarn update-stories; STORYBOOK=true expo start"
+    "sb": "yarn update-stories; STORYBOOK=true expo start",
+    "eas:login": "eas login",
+    "eas:whoami": "eas whoami",
+    "build:android": "eas build --platform android",
+    "build:ios": "eas build --platform ios"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "~1.17.3",
@@ -54,14 +59,19 @@
     "@storybook/addon-react-native-web": "^0.0.18",
     "@storybook/react": "~6.3",
     "@storybook/react-native": "next",
+    "@testing-library/jest-native": "^4.0.5",
     "@testing-library/react-native": "^9.1.0",
+    "@types/jest": "^27.5.1",
     "@types/react-native": "~0.66.13",
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "babel-loader": "^8.2.3",
     "babel-plugin-react-native-web": "^0.17.5",
+    "eas-cli": "^0.52.0",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.30.0",
     "husky": "^8.0.1",
@@ -73,8 +83,5 @@
   },
   "resolutions": {
     "@types/react": "17.0.43"
-  },
-  "jest": {
-    "preset": "jest-expo"
   }
 }
