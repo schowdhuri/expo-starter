@@ -10,18 +10,36 @@
 
 ### Start the app in dev mode
 
-```
+```sh
 yarn start
 ```
 
 ### Storybook (on-device)
 
-```
+```sh
 yarn sb
 ```
 
 ### Storybook (web)
 
-```
+```sh
 yarn sb:web
+```
+
+### Tests
+
+```sh
+yarn test
+```
+
+### Build
+
+```sh
+yarn build:ios
+```
+
+or
+
+```sh
+yarn build:android
 ```
