@@ -10,7 +10,7 @@ defaults:
     shell: "bash"
 
 jobs:
-  main:
+  tests:
     runs-on: ubuntu-latest
     steps:
       - name: 🏗 Setup repo
