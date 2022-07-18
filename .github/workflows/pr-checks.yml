@@ -1,0 +1,35 @@
+name: Tests
+on:
+  pull_request:
+    branches:
+      - master
+      - develop
+
+defaults:
+  run:
+    shell: "bash"
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🏗 Setup repo
+        uses: actions/checkout@v2
+
+      - name: 🏗 Setup Node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.13.0
+          cache: yarn
+
+      - name: 📦 Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: 🔍 Check for lint errors
+        run: yarn lint
+
+      - name: 🧪 Check for type errors
+        run: yarn typecheck
+
+      - name: 🧪 Run tests
+        run: yarn test
