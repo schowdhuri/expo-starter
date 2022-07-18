@@ -5,12 +5,20 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "node": "16.13.0"
     },
     "preview": {
-      "distribution": "internal"
+      "extends": "production",
+      "distribution": "internal",
+      "env": {
+        "AUTH_HOST": "https://staging.example.com/api/auth",
+        "GRAPHQL_URL": "https://staging.example.com/api/graphql"
+      }
     },
-    "production": {}
+    "production": {
+      "node": "16.13.0"
+    }
   },
   "submit": {
     "production": {}

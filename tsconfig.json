@@ -4,17 +4,21 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"],
       "@atoms/*": ["src/components/atoms/*"],
-      "@molecules/*": ["src/components/molecules/*"],
-      "@organisms/*": ["src/components/organisms/*"],
-      "@templates/*": ["src/components/templates/*"],
       "@constants/*": ["src/constants/*"],
       "@hooks/*": ["src/hooks/*"],
+      "@icons/*": ["src/components/icons/*"],
+      "@images/*": ["src/images/*"],
+      "@molecules/*": ["src/components/molecules/*"],
+      "@organisms/*": ["src/components/organisms/*"],
       "@pages/*": ["src/pages/*"],
+      "@services/*": ["src/services/*"],
       "@state/*": ["src/state/*"],
+      "@types": ["src/types"],
       "@types/*": ["src/types/*"],
-      "@utils/*": ["src/utils/*"]
+      "@templates/*": ["src/components/templates/*"],
+      "@utils/*": ["src/utils/*"],
+      "@graphql/*": ["src/graphql/*"]
     }
   }
 }

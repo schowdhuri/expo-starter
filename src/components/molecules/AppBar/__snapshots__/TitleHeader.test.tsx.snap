@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`molecules::TitleHeader renders without exploding 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    dataSet={Object {}}
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessible={true}
+      collapsable={false}
+      colorScheme="primary"
+      dataSet={Object {}}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 4,
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 10,
+        }
+      }
+      testID="title-header"
+    >
+      <Text
+        allowFontScaling={false}
+        dataSet={Object {}}
+        selectable={false}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#3f3f46",
+              "fontSize": 24,
+              "height": 24,
+              "lineHeight": 24,
+              "width": 24,
+            },
+            Object {
+              "fontFamily": "ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
+    <View
+      dataSet={Object {}}
+      style={Object {}}
+    />
+    <Text
+      dataSet={Object {}}
+      style={
+        Object {
+          "backgroundColor": undefined,
+          "color": "#b69056",
+          "fontFamily": "AlegreyaSansSC_700Bold",
+          "fontSize": 20,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "letterSpacing": 0,
+          "lineHeight": 20,
+          "textDecorationLine": undefined,
+        }
+      }
+    >
+      Title
+    </Text>
+  </View>
+</RNCSafeAreaProvider>
+`;

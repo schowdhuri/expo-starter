@@ -1,6 +1,5 @@
-import { withBackgrounds } from "@storybook/addon-ondevice-backgrounds";
-
-export const decorators = [withBackgrounds];
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { AppProviders } from "../src/components/atoms/AppProviders";
 
 export const parameters = {
   backgrounds: [
@@ -15,3 +14,15 @@ export const parameters = {
     },
   },
 };
+
+const Stack = createNativeStackNavigator();
+
+export const decorators = [
+  (Story) => (
+    <AppProviders>
+      <Stack.Navigator>
+        <Stack.Screen name="Storybook" component={Story} />
+      </Stack.Navigator>
+    </AppProviders>
+  ),
+];

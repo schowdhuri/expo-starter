@@ -1,0 +1,15 @@
+overwrite: true
+schema: "../server/schema.gql"
+documents: "src/graphql/documents/**/*.graphql"
+generates:
+  src/graphql/common-service/graphql.generated.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-query
+    config:
+      skipTypename: true
+      exposeQueryKeys: true
+      fetcher:
+        func: ./fetcher#useFetchData
+        isReactHook: true

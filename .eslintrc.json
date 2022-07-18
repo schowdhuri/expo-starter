@@ -17,13 +17,32 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint", "react", "import"],
+  "ignorePatterns": ["src/graphql/**/*.ts"],
   "rules": {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/consistent-type-imports": "error",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "import/no-named-as-default": "off",
     "prettier/prettier": "error",
     "react/jsx-curly-brace-presence": "error",
-    "import/order": "error",
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index"
+        ]
+      }
+    ],
     "import/newline-after-import": "error"
   },
   "settings": {

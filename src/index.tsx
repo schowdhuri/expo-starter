@@ -1,16 +1,10 @@
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { AppProviders } from "@atoms/AppProviders";
-import { Routes } from "@constants/routes";
-import { Home } from "@pages/Home";
-
-const Stack = createNativeStackNavigator();
+import { AppNavigator } from "./Navigator";
 
 export default function App() {
   return (
     <AppProviders>
-      <Stack.Navigator initialRouteName={Routes.Home}>
-        <Stack.Screen name={Routes.Home} component={Home} />
-      </Stack.Navigator>
+      <AppNavigator />
     </AppProviders>
   );
 }

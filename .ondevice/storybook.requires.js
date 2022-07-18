@@ -7,9 +7,6 @@ import {
   addArgsEnhancer,
 } from "@storybook/react-native";
 
-import "@storybook/addon-ondevice-notes/register";
-import "@storybook/addon-ondevice-controls/register";
-import "@storybook/addon-ondevice-backgrounds/register";
 import "@storybook/addon-ondevice-actions/register";
 
 import { argsEnhancers } from "@storybook/addon-actions/dist/modern/preset/addArgs";
@@ -30,7 +27,10 @@ try {
 } catch {}
 
 const getStories = () => {
-  return [require("../src/components/atoms/Button/Button.stories.tsx")];
+  return [
+    require("../src/components/atoms/FormControls/FormControls.stories.tsx"),
+    require("../src/components/molecules/AppBar/AppBar.stories.tsx"),
+  ];
 };
 
 configure(getStories, module, false);

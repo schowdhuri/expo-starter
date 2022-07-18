@@ -1,4 +1,4 @@
-# Expo starter
+# Expo Starter
 
 ## Development
 
@@ -7,6 +7,12 @@
 - Node 16.x
 - Yarn 1.x
 - Expo CLI
+
+### Initialize Husky
+
+```sh
+yarn husky install
+```
 
 ### Start the app in dev mode
 
@@ -42,4 +48,10 @@ or
 
 ```sh
 yarn build:android
+```
+
+## Expo Secrets
+
+```sh
+yarn eas secret:create --scope project --name SUPER_SECRET --value xxxx
 ```
