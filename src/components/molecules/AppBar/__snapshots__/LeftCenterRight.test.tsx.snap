@@ -36,7 +36,7 @@ exports[`molecules::LeftCenterRight renders without exploding 1`] = `
           Object {
             "backgroundColor": undefined,
             "color": "#171717",
-            "fontFamily": "AlegreyaSansSC_400Regular",
+            "fontFamily": "Epilogue_400Regular",
             "fontSize": 14,
             "fontStyle": undefined,
             "fontWeight": undefined,
@@ -67,7 +67,7 @@ exports[`molecules::LeftCenterRight renders without exploding 1`] = `
           Object {
             "backgroundColor": undefined,
             "color": "#171717",
-            "fontFamily": "AlegreyaSansSC_400Regular",
+            "fontFamily": "Epilogue_400Regular",
             "fontSize": 14,
             "fontStyle": undefined,
             "fontWeight": undefined,
@@ -99,7 +99,7 @@ exports[`molecules::LeftCenterRight renders without exploding 1`] = `
           Object {
             "backgroundColor": undefined,
             "color": "#171717",
-            "fontFamily": "AlegreyaSansSC_400Regular",
+            "fontFamily": "Epilogue_400Regular",
             "fontSize": 14,
             "fontStyle": undefined,
             "fontWeight": undefined,

@@ -90,7 +90,7 @@ exports[`molecules::TitleHeader renders without exploding 1`] = `
         Object {
           "backgroundColor": undefined,
           "color": "#b69056",
-          "fontFamily": "AlegreyaSansSC_700Bold",
+          "fontFamily": "Epilogue_700Bold",
           "fontSize": 20,
           "fontStyle": undefined,
           "fontWeight": undefined,
