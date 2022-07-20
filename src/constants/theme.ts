@@ -31,68 +31,41 @@ const theme = extendTheme({
     },
   },
   fontConfig: {
-    AlegreyaSansSC: {
+    Epilogue: {
       100: {
-        normal: "AlegreyaSansSC_100Thin",
-        italic: "AlegreyaSansSC_100Thin_Italic",
+        normal: "Epilogue_100Thin",
+        italic: "Epilogue_100Thin_Italic",
       },
       300: {
-        normal: "AlegreyaSansSC_300Light",
-        italic: "AlegreyaSansSC_300Light_Italic",
+        normal: "Epilogue_300Light",
+        italic: "Epilogue_300Light_Italic",
       },
       400: {
-        normal: "AlegreyaSansSC_400Regular",
-        italic: "AlegreyaSansSC_400Regular_Italic",
+        normal: "Epilogue_400Regular",
+        italic: "Epilogue_400Regular_Italic",
       },
       500: {
-        normal: "AlegreyaSansSC_500Medium",
-        italic: "AlegreyaSansSC_500Medium_Italic,",
+        normal: "Epilogue_500Medium",
+        italic: "Epilogue_500Medium_Italic,",
       },
       700: {
-        normal: "AlegreyaSansSC_700Bold",
-        italic: "AlegreyaSansSC_700Bold_Italic",
+        normal: "Epilogue_700Bold",
+        italic: "Epilogue_700Bold_Italic",
       },
       800: {
-        normal: "AlegreyaSansSC_800ExtraBold",
-        italic: "AlegreyaSansSC_800ExtraBold_Italic",
+        normal: "Epilogue_800ExtraBold",
+        italic: "Epilogue_800ExtraBold_Italic",
       },
       900: {
-        normal: "AlegreyaSansSC_900Black",
-        italic: "AlegreyaSansSC_900Black_Italic",
-      },
-    },
-    Roboto: {
-      100: {
-        normal: "Roboto_100Thin",
-        italic: "Roboto_100Thin_Italic",
-      },
-
-      300: {
-        normal: "Roboto_300Light",
-        italic: "Roboto_300Light_Italic",
-      },
-      400: {
-        normal: "Roboto_400Regular",
-        italic: "Roboto_400Regular_Italic",
-      },
-      500: {
-        normal: "Roboto_500Medium",
-        italic: "Roboto_500Medium_Italic",
-      },
-      700: {
-        normal: "Roboto_700Bold",
-        italic: "Roboto_700Bold_Italic",
-      },
-      900: {
-        normal: "Roboto_900Black",
-        italic: "Roboto_900Black_Italic",
+        normal: "Epilogue_900Black",
+        italic: "Epilogue_900Black_Italic",
       },
     },
   },
   fonts: {
-    heading: "AlegreyaSansSC",
-    body: "AlegreyaSansSC",
-    mono: "Roboto",
+    heading: "Epilogue",
+    body: "Epilogue",
+    mono: "Epilogue",
   },
 });
 

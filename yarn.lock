@@ -1940,15 +1940,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@expo-google-fonts/alegreya-sans-sc@^0.2.2":
+"@expo-google-fonts/epilogue@^0.2.2":
   version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@expo-google-fonts/alegreya-sans-sc/-/alegreya-sans-sc-0.2.2.tgz#fb2de1e2362a20bec383925d86233132dccc3963"
-  integrity sha512-5fp6Pdg/3lvLkj9YkrYNmIiMq4W9qbscMMaZWppuqCKTR31CiEhk6LYIVrT047L0/eFDgzLCrWiDQgaSCNMIvw==
-
-"@expo-google-fonts/roboto@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@expo-google-fonts/roboto/-/roboto-0.2.2.tgz#0a9f4685e8d02bdb0d2d2919c102f531bdb353d4"
-  integrity sha512-qP0oZsR8rTID5T9wEXSt9yCYMnKYKlvIlrJGGpd+t71Obt2J51+51PBpvxd5c8fpABEru3zx6ENmpU9lzwr8zw==
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/epilogue/-/epilogue-0.2.2.tgz#cdf63fa3dc718753170b610d4df0c954b2b17082"
+  integrity sha512-NYQEFGXDHoeRZ+gqqbwTEwyOY/qW2imYPzqO+YKxw4y5nHBwMU5yI2izlT+gbduH8T+Tu1jgh8IR9HmqUdpJUQ==
 
 "@expo/apple-utils@0.0.0-alpha.31":
   version "0.0.0-alpha.31"
